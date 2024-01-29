@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MaxMaintain</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="max.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://sarasoueidan.com/demos/windows8-animations/css/demo-styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!-- JavaScript and Frameworks -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@6.7.0/swiper-bundle.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Space+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800|Catamaran:200,300,500|Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <!-- Other head elements -->
+  </head>
+<body>
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+     <div class="grad-bar"></div>
+     <nav class="navbar">
+       <img src="maxmaintain.svg" alt="Company Logo">
+       <div class="menu-toggle" id="mobile-menu">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+       </div>
+       <ul class="nav no-search">
+         <li class="nav-item"><a href="index (1).html">Home</a></li>
+         <li class="nav-item"><a href="about.html">About</a></li>
+         <li class="nav-item"><a href="Blogs.html">Blogs</a></li>
+         
+         <li class="nav-item"><a href="Contact.html">Contact Us</a></li>
+      
+         <i class="fas fa-search" id="search-icon"></i>
+         <input class="search-input" type="text" placeholder="Search..">
+       </ul>
+     </nav>
+      <div class="menu-toggle"></div>
+     </div>
+  </div>
+  
+ 
+
+
+    <div id="demo">
+  <div class="demo-wrapper">
+    <!-- Classnames for the pages should include: 1) type of page 2) page name -->
+    <div class="s-page random-restored-page">
+        <div class="page-content">
+            <h2 class="page-title">Professional Cleaning Services</h2>
+        </div>
+        <div class="close-button s-close-button">x</div>   
+    </div>
+    <div class="s-page custom-page">
+        <div class="page-content">
+            <h2 class="page-title">Reliable Maintenance Solutions</h2>
+        </div>
+        <div class="close-button s-close-button">x</div>
+    </div>
+    <div class="r-page random-r-page">
+        <div class="page-content">
+            <h2 class="page-title">Comprehensive Services</h2>
+            <p>Our team specializes in a wide range of services to keep your property in top condition. From thorough cleaning to regular maintenance, we've got you covered.</p>
+            <p>Need an electrician or a plumber? Our skilled technicians are ready to tackle all your electrical and plumbing needs, ensuring everything runs smoothly.</p>
+            <p>Don't forget about your garden! Our gardening services will keep your outdoor spaces looking pristine and welcoming.</p>
+        </div>
+        <div class="close-button r-close-button">x</div>
+    </div>
+    <!-- Each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open -->
+    <div class="dashboard clearfix">
+        <ul class="tiles">
+            <div class="col1 clearfix">
+                <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+                    <div><p>Learn More About Our Cleaning Services</p></div>
+                    <div><p>Sparkling Clean Spaces</p></div>
+                </li>
+                <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page" data-page-name="random-restored-page">
+                    <div><p class="icon-arrow-right"></p></div>
+                    <div><p>Expert Maintenance Services</p></div>
+                </li>
+                <li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name="random-r-page">
+                    <p class="icon-calendar-alt-fill"></p>
+                </li>
+                <li class="tile tile-big tile-4 fig-tile" data-page-type="r-page" data-page-name="random-r-page">
+                    <figure>
+                        <img src="https://sarasoueidan.com/demos/windows8-animations/images/blue.jpg" />
+                        <figcaption class="tile-caption caption-left">Electrical and Plumbing Services</figcaption>
+                    </figure>
+                </li>
+            </div>
+            <div class="col2 clearfix">
+                <li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+                    <div><p><span class="icon-cloudy"></span>Weatherproof Maintenance</p></div>
+                </li>
+                <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+                    <div><p><span class="icon-skype"></span>Get in Touch</p></div>
+                    <div><p>Contact Us for Services</p></div>
+                </li>
+                <li class="tile tile-small tile-7 rotate3d rotate3dX" data-page-type="r-page" data-page-name="random-r-page">
+                    <div class="faces">
+                        <div class="front"><span class="icon-picassa"></span></div>
+                        <div class="back"><p>Top-notch Gardening</p></div>
+                    </div>
+                </li>
+                <li class="tile tile-small last tile-8 rotate3d rotate3dY" data-page-type="r-page" data-page-name="random-r-page">
+                    <div class="faces">
+                        <div class="front"><span class="icon-instagram"></span></div>
+                        <div class="back"><p>Follow Us for Tips & Updates</p></div>
+                    </div>
+                </li>
+            </div>
+            <div class="col3 clearfix">      
+                <li class="tile tile-2xbig tile-9 fig-tile" data-page-type="custom-page" data-page-name="random-r-page">
+                    <figure>
+                        <img src="https://sarasoueidan.com/demos/windows8-animations/images/summer.jpg" />
+                        <figcaption class="tile-caption caption-bottom">Dependable and Efficient Services for Your Property</figcaption>
+                    </figure>
+                </li>
+                <li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="custom-page">
+                    <div><p>Our Commitment: Excellence in Every Service We Offer</p></div>
+                </li>
+            </div>
+        </ul>
+    </div><!-- end dashboard -->
+
+
+    </div>
+    </div>
+  </div>
+  
+  
+
+
+  <section id="price">
+    <span>choose a right pack</span>
+    <h1>our flexible pricing plans</h1>
+    <div class="cards">
+      <div class="card card--purple">
+        <div class="card__outer">
+          <div class="card__inner">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm4.5 7.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0v-2.25a.75.75 0 0 1 .75-.75Zm3.75-1.5a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V12Zm2.25-3a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0V9.75A.75.75 0 0 1 13.5 9Zm3.75-1.5a.75.75 0 0 0-1.5 0v9a.75.75 0 0 0 1.5 0v-9Z" clip-rule="evenodd" />
+              </svg>
+            </span>
+            <p class="title">starter pack</p>
+            <p class="price"><span class="price price--number"><span class="price price--dolar">$</span>29</span></p>
+  
+            <ul>
+              <li>first advantage</li>
+              <li>second advantage</li>
+              <li>third advantage</li>
+            </ul>
+          </div>
+          <a href="#">get started now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card card--red active">
+        <div class="card__outer">
+          <div class="card__inner">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M5.25 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM2.25 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM18.75 7.5a.75.75 0 0 0-1.5 0v2.25H15a.75.75 0 0 0 0 1.5h2.25v2.25a.75.75 0 0 0 1.5 0v-2.25H21a.75.75 0 0 0 0-1.5h-2.25V7.5Z" />
+              </svg>
+            </span>
+            <p class="title">enterprise pack</p>
+            <p class="price"><span class="price price--number"><span class="price price--dolar">$</span>49</span></p>
+  
+            <ul>
+              <li>first advantage</li>
+              <li>second advantage</li>
+              <li>third advantage</li>
+              <li>fourth advantage</li>
+            </ul>
+          </div>
+          <a href="#">get started now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card card--green">
+        <div class="card__outer">
+          <div class="card__inner">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+              </svg>
+            </span>
+            <p class="title">premium pack</p>
+            <p class="price"><span class="price price--number"><span class="price price--dolar">$</span>89</span></p>
+  
+            <ul>
+              <li>first advantage</li>
+              <li>second advantage</li>
+              <li>third advantage</li>
+            </ul>
+          </div>
+          <a href="#">get started now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+
+
+
+     <section id="testimonials" class="bg-white py-12">
+     <div class="container mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6">What Our Clients Say</h2>
+
+      <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+              <div class="testimonial-rating">★★★★★</div>
+              <p class="testimonial-text">"Londoclean provided exceptional service. Their attention to detail and professionalism was beyond our expectations. Highly recommended!"</p>
+              <h3 class="testimonial-author">New road Hotel</h3>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+              <div class="testimonial-rating">★★★★★</div>
+              <p class="testimonial-text">"The electrical work done by Londoclean was top-notch. Safe, efficient, and reliable. They are now our go-to service provider."</p>
+              <h3 class="testimonial-author">East-End State Agent </h3>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+              <div class="testimonial-rating">★★★★★</div>
+              <p class="testimonial-text">"I was impressed with the comprehensive maintenance services they offer. Great quality of work and excellent customer service."</p>
+              <h3 class="testimonial-author">Alex Johnson</h3>
+          </div>
+      </div>
+      </div>
+      </section>
+
+
+
+
+
+
+
+    <div class="attribution">
+
+    Developed by <a href="https://britmarksolutions.com/" target="_blank">britmarksolutions</a>.
+     </div>
+
+    <section id="locations" class="bg-gray-100 py-12">
+     <div class="container mx-auto">
+      <div class="mb-10 text-center">
+          <h2 class="text-3xl font-bold mb-2">Our Location</h2>
+          <p class="text-gray-700">Visit us at our London office</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+              <h4 class="text-xl font-semibold mb-2">London, United Kingdom</h4>
+              <p class="text-gray-700 mb-4">
+                  17 Vine court, Whitechapel<br>
+                  Post code: E1 1JH<br>
+                  Operating Hours: 9am - 5pm<br>
+                  Contact: 442035764635<br>
+                  Email: admin@olympiacare.co.uk
+              </p>
+              <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.213199468217!2d-0.067419!3d51.5168246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d2334fd8f09%3A0x5449a31e82ae11e7!2sx%2Bwhy%2C%20People's%20Mission%20Hall!5e0!3m2!1sen!2suk!4v1696855428027!5m2!1sen!2suk" target="_blank" class="inline-block bg-blue-500 text-white py-2 px-4 rounded-full text-sm font-semibold transition duration-300 hover:bg-blue-700">Get Directions</a>
+          </div>
+          <div class="rounded-lg overflow-hidden">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.213199468217!2d-0.067419!3d51.5168246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d2334fd8f09%3A0x5449a31e82ae11e7!2sx%2Bwhy%2C%20People's%20Mission%20Hall!5e0!3m2!1sen!2suk!4v1696855428027!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+  </div>
+    </section>
+
+
+
+    <footer>
+  <div class="footer-container">
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>© 2023 LondoClean</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- ... rest of your HTML ... -->
+
+
+<script src="portfolio.js" async defer></script>
+<script src="https://sarasoueidan.com/demos/windows8-animations/js/scripts.js"></script>
+</body>
+</html>

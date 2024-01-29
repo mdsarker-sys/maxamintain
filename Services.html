@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olympia care - Home Care Services</title>
+<link rel="stylesheet" href="services.css">
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex justify-between w-full items-center">
+        <div class="company-name text-center">
+          <a href="Index.html" class="home-button text-2xl font-bold text-white block mb-2">Olympia Care</a>
+          <p class="text-xl text-white  md:block">Call Us: +44 2035764635</p> <!-- hidden on mobile, shown on md screens and above -->
+        </div>
+        <button class="menu-toggle text-white md:hidden" onclick="toggleMenu()">Menu</button> <!-- hidden on md screens and above -->
+      </div>
+      <ul class="nav-list flex space-x-4 md:flex hidden" id="menu"> <!-- hidden by default, shown on md screens and above -->
+        <li><a href="Services.html" class="text-white">Services</a></li>
+        <li><a href="about.html" class="text-white">About</a></li>
+        <li><a href="Contact.html" class="text-white">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="hero">
+	<h1>Olympia care<span> Assited living made easy</span></h1>
+
+<section id="services" class="bg-gray-100 py-12">
+    <div class="container mx-auto text-center mb-8">
+        <h2 class="text-3xl font-bold mb-2">Our Services</h2>
+        <p class="text-gray-700 mb-8">We are dedicated to providing comprehensive and personalized care services tailored to your unique needs.</p>
+    </div>
+
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Elderly Care Card -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold mb-4">Elderly Care</h3>
+            <p class="text-gray-700 mb-4">At Olympia care, we provide personalized homecare and support to vulnerable adults in the comfort of their homes, ensuring their daily needs are met with compassion and professionalism.</p>
+            <a href="#" class="text-blue-500 hover:underline">Learn more</a>
+        </div>
+
+        <!-- Respite Care Card -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold mb-4">Respite Care</h3>
+            <p class="text-gray-700 mb-4">A range of respite options are available on a full-time or part-time basis, providing you the flexibility to take a much-deserved break from caring for your loved one without disturbing any established routine.</p>
+            <a href="#" class="text-blue-500 hover:underline">Learn more</a>
+        </div>
+
+        <!-- Post Discharge Care Card -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold mb-4">Post Discharge Care</h3>
+            <p class="text-gray-700 mb-4">We provide person-centered care and support required for recovery at home after treatment for illness or surgery. Our experienced carers offer expert care during recovery periods and live-in-care if needed.</p>
+            <a href="#" class="text-blue-500 hover:underline">Learn more</a>
+        </div>
+
+         <!-- Post Discharge Care Card -->
+         <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold mb-4">Helping seniors learn hobbies</h3>
+            <p class="text-gray-700 mb-4">We provide person-centered care and support required for recovery at home after treatment for illness or surgery. Our experienced carers offer expert care during recovery periods and live-in-care if needed.</p>
+            <a href="#" class="text-blue-500 hover:underline">Learn more</a>
+        </div>
+
+        <!-- Home and Daily Living Card -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-bold mb-4">Home and Daily Living</h3>
+            <p class="text-gray-700 mb-4">We provide person-centered support enabling individuals with a wide range of needs to retain their independence within their own home. Our services include:</p>
+            
+            <h4 class="text-lg font-semibold mt-2 mb-2">Personal Care &amp; Hygiene</h4>
+            <ul class="list-disc list-inside mb-4">
+                <li>Bathing and Dressing</li>
+                <li>Using the toilet</li>
+                <li>Hair styling</li>
+                <!-- ... other items ... -->
+            </ul>
+
+            <h4 class="text-lg font-semibold mt-2 mb-2">Specialist care</h4>
+            <ul class="list-disc list-inside">
+                <li>Dementia Care</li>
+                <li>Palliative Care</li>
+                <!-- ... other items ... -->
+            </ul>
+        </div>
+        
+    </div>
+</section>
+
+
+<footer>
+    <p>&copy; 2023 Olympia care</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
